@@ -1,0 +1,38 @@
+# Build artifacts
+target/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+
+# Runtime artefacts
+logs/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config overrides
+src/main/resources/application-local.properties
+
+# Internal planning / hand-off docs (not part of the public app)
+Fitmanage-prd.md
+prompt.md
+AUDIT-PLAN.md
+
+# Mockup reference images and HTML (regen from PRD if needed)
+assets/
+
+# Editor / IDE debug state
+.cursor/
